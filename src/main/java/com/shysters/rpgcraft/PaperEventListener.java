@@ -14,7 +14,7 @@ public class PaperEventListener {
 	public void rightClickListener(PlayerInteractEvent pie) {
 	    //TODO add a check to make sure we are on the client side
 	    if(pie.getItemStack().getItem().equals(Items.PAPER)) {
-			reaction.run();
+		reaction.run();
 	    }
     }
 }
