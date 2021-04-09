@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.shysters.rpgcraft;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -22,6 +22,8 @@ import java.util.stream.Collectors;
 @Mod("RPGCraft")
 public class RPGCraft
 {
+    PaperEventListener pe;
+
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
